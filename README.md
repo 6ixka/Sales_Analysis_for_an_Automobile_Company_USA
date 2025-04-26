@@ -83,7 +83,6 @@ bike_in_US.head()
 
 
 
-
 #### DATA AGGREGATION 
 
 ```
