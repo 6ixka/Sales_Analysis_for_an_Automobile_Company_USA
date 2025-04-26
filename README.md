@@ -104,8 +104,6 @@ total_profit_by_states
 # Sorting the aggregated data in order to rank the state according to the top most profitable states
 total_profit_by_states.sort_values("Profit", ascending = False)
 ```
-![Data Sorting_ss](https://github.com/user-attachments/assets/fb288b06-fb78-4788-bdc1-fc4be3fb327f)
-
 #### RESULT
 
 ```
@@ -113,6 +111,10 @@ total_profit_by_states.sort_values("Profit", ascending = False)
 top_most_profitable_5_states_US = total_profit_by_states.sort_values("Profit", ascending = False).head()
 top_most_profitable_5_states_US
 ```
+
+
+![Data Sorting_ss](https://github.com/user-attachments/assets/fb288b06-fb78-4788-bdc1-fc4be3fb327f)
+
 ## DATA VISUALIZATION 
 ```
 # Vissualizing the result
